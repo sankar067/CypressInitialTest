@@ -1,0 +1,16 @@
+{
+    "watchForFileChanges":false,
+    "chromeWebSecurity":false,
+    "testFiles": [
+        "demo-function-spec.js",
+        "demo-page-object-spec.js",
+        "mercuryDemo.spec.js"
+    ],
+    "retries":1,
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+}
